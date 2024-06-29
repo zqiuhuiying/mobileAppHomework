@@ -1,0 +1,35 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"goodsname": {
+			"bsonType": "string",
+			"title": "商品名称",
+			"description": "商品名称",
+			"order": 1,
+			"trim": "both"
+		},
+		"price": {
+			"bsonType": "double",
+			"title": "价格",
+			"description": "价格",
+			"order": 2,
+			"trim": "both"
+		},
+		"image": {
+			"bsonType": "string",
+			"title": "商品图片",
+			"description": "商品图片的 URL",
+			"order": 3
+		}
+	}
+}
