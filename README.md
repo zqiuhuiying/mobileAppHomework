@@ -12,3 +12,4 @@ js_sdk中是contacts需要的内容；
 static中是要用到图片；
 uniCloud-alipay中是要用到的云函数和云数据库配置；
 pages.json中是页面的配置；
+DBdatas中是数据库中的数据；
